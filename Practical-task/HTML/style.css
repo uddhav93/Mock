@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#background-img{
+    padding: 40px 100px;
+    background-image: url('./images/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#skill-list{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+.skill{
+    box-sizing: border-box;
+    padding: 5px;
+}
+#code{
+    border: 1px solid rgb(104, 173, 243);
+    padding: 10px;
+    border-radius: 20px;
+    width: fit-content;
+    margin-top: 20px;
+}
